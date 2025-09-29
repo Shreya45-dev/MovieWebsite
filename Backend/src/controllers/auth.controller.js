@@ -1,6 +1,6 @@
 const userModel=require("../models/user.model")
 //const foodPartnerModel=require("../models/foodpartner.model")
-const bcrypt=require('bcryptjs');
+const bcrypt=require('bcrypt');
 const jwt=require('jsonwebtoken')
 async function registerUser(req,res){
     const {fullName,email,password}=req.body
