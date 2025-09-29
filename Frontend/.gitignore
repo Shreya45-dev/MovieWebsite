@@ -33,6 +33,5 @@ dist-ssr/
 # Optional: MacOS system file
 .AppleDouble
 
-node_modules
 
 
