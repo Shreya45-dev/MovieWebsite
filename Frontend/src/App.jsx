@@ -1,15 +1,15 @@
 import React from 'react'
 import Body from './components/Body'
-import MovieDialog from './components/Moviedialog'
+import MovieDialogbox from './components/MovieDialogbox'
 
 
 
-const App = () => {
 
+const App = () =>{
   return (
     <div>
       <Body/>
-      <MovieDialog/>
+      <MovieDialogbox/>
       
 
     </div>

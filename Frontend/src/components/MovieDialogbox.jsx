@@ -12,7 +12,7 @@ import { setOpen } from '../redux/movieSlice';
 import VideoBackground from './VideoBackground';
 import VideoTitle from './VideoTitle';
 
-export default function MovieDialog() {
+export default function MovieDialogbox() {
     const {open,id}=useSelector(store=>store.movie)
     const dispatch=useDispatch()
     const handleClose=()=>{
