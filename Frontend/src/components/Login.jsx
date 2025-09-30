@@ -15,7 +15,7 @@ const Login = () => {
     e.preventDefault()
    
     if(!login){
-   const response=await axios.post("https://moviewebsite-iazg.onrender.com/api/auth/user/register",{
+   const response=await axios.post("https://moviewebsite-2-9elc.onrender.com/api/auth/user/register",{
       fullName,
       email,
       password
@@ -29,7 +29,7 @@ const Login = () => {
     
     else{
       const user={email,password}
-   const response=await axios.post("https://moviewebsite-iazg.onrender.com/api/auth/user/login",{
+   const response=await axios.post("https://moviewebsite-2-9elc.onrender.com/api/auth/user/login",{
     
       email,
       password
