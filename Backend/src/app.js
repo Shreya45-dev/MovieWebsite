@@ -15,6 +15,9 @@ app.use(cookieParser())
 app.get("/",(req,res)=>{
     res.send("Hello World")
 })
+app.get("/hello",(req,res)=>{
+    res.send("Hello kyaa ho rha hai")
+})
 app.use('/api/auth',authRoutes)
 //app.use('/api/food',foodRoutes)
 //app.use('/api/food-partner',foodPartnerRoutes)
