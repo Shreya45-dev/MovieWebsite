@@ -6,7 +6,7 @@ import  '../index.css'
 const Movielist = ({title,movies}) => {
     
    
-   // const searchmovie=props.searchmovie=false
+  
     
   return (
     <>

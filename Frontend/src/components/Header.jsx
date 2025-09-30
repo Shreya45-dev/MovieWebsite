@@ -6,7 +6,6 @@ import { useNavigate } from 'react-router-dom'
 import toast from "react-hot-toast"
 import {setUser} from "../redux/userSlice"
 import axios from 'axios'
-//import { setToggle } from '../redux/movieSlice'
 import { setToggle } from '../redux/movieSlice'
 
 const Header = () => {

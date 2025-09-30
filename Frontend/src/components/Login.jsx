@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import axios from 'axios' //Notes agr flex hai toh hidden ko alg se show krnaa hoga
+import axios from 'axios'                                             
 import { useNavigate } from 'react-router-dom'
 import {useDispatch} from "react-redux"
 import { setUser } from '../redux/userSlice'
@@ -41,77 +41,9 @@ const Login = () => {
     navigate('/browse')
   }
     
-    //setfullName('')
-    //setpassword('')
-    //setemail('')
     
   }
-  /*<div className='h-screen w-screen flex items-center relative justify-center '>
-      <div className ='h-80 w-[500px] bg-black  relative flex  items-center  justify-center>
-    
-    
-      < form className='h-60 bg-red-500 w-[450px] right-[25px] flex-col-reverse  items-center  justify-center' >
-     <input
-        type="text"
-        placeholder="fullName"
-        className="h-[35px] w-full bg-gray-800 mb-3 text-white  "
-      />
-      <input
-        type="email"
-        placeholder="Email"
-        className="h-[35px] w-full bg-gray-800 text-white"
-      />
-      <input
-        type="password"
-        placeholder="Password"
-     className="h-[35px] w-full bg-gray-800 text-white"
-      />
-      <button
-        type="submit"
-        className="bg-black text-white p-2 rounded-md hover:bg-gray-800"
-      ></button>
-       
-      </form>
-      
-      
-      </div></div>
 
-  )
-}
-
-export default Login*/
-
- /*<div className="h-screen w-screen flex items-center justify-center  absolute ">
-    
-  <div className="h-80 w-[500px] bg-black flex flex-col items-center justify-center rounded-lg shadow-lg">
-        <h1 className='w-full text-center text-white text-3xl'>SIGN UP</h1>
-    <form className="h-60 w-[450px]  flex flex-col items-center justify-center gap-5 p-4 rounded-md">
-      <input
-        type="text"
-        placeholder="Full Name"
-        className="h-[35px] w-full bg-gray-800 text-white px-3 rounded"
-      />
-      <input
-        type="email"
-        placeholder="Email"
-        className="h-[35px] w-full bg-gray-800 text-white px-3 rounded"
-      />
-      <input
-        type="password"
-        placeholder="Password"
-        className="h-[35px] w-full bg-gray-800 text-white px-3 rounded"
-      />
-      <button
-        type="submit"
-        className="bg-black text-white py-2 px-4 rounded-md hover:bg-gray-800"
-      >
-        Submit
-      </button>
-    </form>
-  </div>
-</div>
-  )}
-  export default Login*/
   let template=  <input
         type="text"
         placeholder="fullName"
