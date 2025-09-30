@@ -3,7 +3,6 @@ import { options } from '../utils/constant'
 import axios from 'axios'
 import { useDispatch, useSelector } from 'react-redux'
 import { setSearchMovieDetails } from '../redux/searchSlice'
-import usePopularMovies from '../hook/usePopularMovies'
 import Movielist from './Movielist'
 
 const Searchmovie = () => {
