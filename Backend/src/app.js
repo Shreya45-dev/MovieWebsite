@@ -3,7 +3,7 @@ const cookieParser=require('cookie-parser') //npm i cookie-parser
 const authRoutes=require('./routes/auth.routes')
 const app=express();
 const cors=require('cors')
-/
+
 app.use(cors({
     origin:"https://moviewebsitefront-361k.onrender.com",
     credentials:true
