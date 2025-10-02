@@ -26,14 +26,14 @@ const Searchmovie = () => {
   }
   return (
     <div className='h-screen w-screen  relative flex mb-20'>
-        <div className="absolute z-6">
+        <div className=" z-6">
         <form onSubmit={submithandle} className='flex h-12 w-[700px] border-2 solid black rounded-3xl'>
             <input type='text' value={searchMovie} onChange={(e)=>setsearchMovie(e.target.value)} className='h-12 w-[650px] outline-none ' placeholder='search movie' ></input>
             <button type="submit">Search</button>
             
         </form></div>
         
-        <Movielist className="left-0" title={movieName}  movies={searchedMovie}></Movielist>
+        <Movielist className="top-16" title={movieName}  movies={searchedMovie}></Movielist>
       
     </div>
   )
