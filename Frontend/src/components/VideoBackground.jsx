@@ -22,7 +22,7 @@ const VideoBackground = ({movieId,bool}) => {
     
     <div className=" absolute ">
 
-  <iframe  className={`${bool? "w-[100%] h-[50%] flex justify-center  overflow-hidden": "h-screen w-screen aspect-video" } `}
+  <iframe  className={`${bool? "w-[100%] h-[50%] flex justify-center  overflow-hidden": " h-[500px] md:h-screen xl:h-screen 2xl:h-screen  w-screen aspect-video" } `}
   width="600"
       height="315" 
       src={`https://www.youtube.com/embed/${trailerMovies.key}?si=eXR1sGsxjv9D_Sdp&autoplay=1&mute=1&controls=0&rels=0`}

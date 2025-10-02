@@ -7,7 +7,7 @@ const MovieContainer = () => {
   
   return (
     <div>
-    <div className=' h-[450px] 2xl:h-[540px] '></div>
+    <div className=' h-[350px] md:h-[540px] 2xl:h-[540px] '></div>
     
     <div className=" absolute bg-black z-10">
     <Movielist title={"Popular Movie"} movies={movie.PopularMovies}/>

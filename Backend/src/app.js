@@ -2,10 +2,8 @@ const express=require('express')//npm i express
 const cookieParser=require('cookie-parser') //npm i cookie-parser
 const authRoutes=require('./routes/auth.routes')
 const app=express();
-//const foodRoutes=require('./routes/food.routes')
-//const foodPartnerRoutes=require('./routes/food-partner.routes')
 const cors=require('cors')
-
+/
 app.use(cors({
     origin:"https://moviewebsitefront-361k.onrender.com",
     credentials:true
@@ -19,6 +17,4 @@ app.get("/hello",(req,res)=>{
     res.send("Hello kyaa ho rha hai")
 })
 app.use('/api/auth',authRoutes)
-//app.use('/api/food',foodRoutes)
-//app.use('/api/food-partner',foodPartnerRoutes)
-module.exports=app; // 
+module.exports=app; 

@@ -13,7 +13,7 @@ const VideoTitle = ({title,overview}) => {
     <div className="h-screen w-screen absolute z-4 flex  items-center ">
       <div className="h-60  absolute z-5 ">
   
-  <h1 className="  text-2xl  text-white  mb-5">{title}</h1>
+  <h1 className="  text-2xl lg:2xl md:text-3xl xl:3xl 2xl:3xl text-white  mb-5">{title}</h1>
   <h1 className="hidden  md:block text-white mb-20 w-1/3">
     {overview}
   </h1>

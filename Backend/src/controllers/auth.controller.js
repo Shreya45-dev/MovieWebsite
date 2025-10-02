@@ -41,8 +41,7 @@ async function registerUser(req,res){
 }
 async function loginUser(req,res){
     const{email,password}=req.body;
-    const user=await userModel.findOne({
-        email})
+    const user=await userModel.findOne({email})
     
         if(!user){
             return res.status(400).json({

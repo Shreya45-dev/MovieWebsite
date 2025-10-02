@@ -13,7 +13,7 @@ const Login = () => {
   
   const submithandler=async(e)=>{
     e.preventDefault()
-   
+   //https://moviewebsite-2-9elc.onrender.co
     if(!login){
    const response=await axios.post("https://moviewebsite-2-9elc.onrender.com/api/auth/user/register",{
       fullName,
@@ -29,7 +29,7 @@ const Login = () => {
     
     else{
       const user={email,password}
-   const response=await axios.post("https://moviewebsite-2-9elc.onrender.com/api/auth/user/login",{
+   const response=await axios.post("https://moviewebsite-2-9elc.onrender.co/api/auth/user/login",{
     
       email,
       password
