@@ -7,7 +7,7 @@ const app=express();
 const cors=require('cors')
 
 app.use(cors({
-    origin:"https://moviewebsite-1frontend.onrender.comg",
+    origin:"https://moviewebsite-1frontend.onrender.com",
     credentials:true
 }))
 app.use(express.json())
