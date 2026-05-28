@@ -28,7 +28,11 @@ async function registerUser(req,res){
         id:user._id,
     },"hello")   
                                                               
-    res.cookie("token",token)
+    res.cookie("token",token,{
+           httpOnly: true,
+    secure: true,
+    sameSite: "none"
+    })
     res.status(201).json({
         message:"User registered sucessfully",
         user:{
@@ -59,7 +63,11 @@ async function loginUser(req,res){
         const token=jwt.sign({
             id:user._id,
         },"hello")
-        res.cookie("token",token)
+        res.cookie("token",token,{
+               httpOnly: true,
+    secure: true,
+    sameSite: "none"
+        })
         res.status(200).json({
             message:"User logged in successfully",
             user:{
