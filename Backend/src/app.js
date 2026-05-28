@@ -2,6 +2,8 @@ const express=require('express')//npm i express
 const cookieParser=require('cookie-parser') //npm i cookie-parser
 const authRoutes=require('./routes/auth.routes')
 const app=express();
+//const foodRoutes=require('./routes/food.routes')
+//const foodPartnerRoutes=require('./routes/food-partner.routes')
 const cors=require('cors')
 
 app.use(cors({
